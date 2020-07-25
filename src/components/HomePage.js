@@ -8,6 +8,7 @@ class HomePage  extends Component {
             <div>
                 <nav>
                    <Link to="/home"> Home </Link>
+                   <Link to="/home"> User Profile </Link>
                 </nav>
                 
             </div>
