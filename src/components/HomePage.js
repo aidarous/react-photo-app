@@ -7,11 +7,14 @@ class HomePage  extends Component {
         return (
         <Router>
             <div>
-                <nav>
-                   <Link to="/home"> Home </Link>
-                   <Link to="/user-profile"> User Profile </Link>
-                   <Link to="/bookmarks"> Bookmarks </Link>
-                </nav>
+                <div>
+                    <nav>
+                    <Link to="/home"> Home </Link>
+                    <Link to="/user-profile"> User Profile </Link>
+                    <Link to="/bookmarks"> Bookmarks </Link>
+                    </nav>
+                </div>
+
                 <h1> React Photo App</h1>
                 <img src= {logo} />
                 <img src= {somethinggreat} />
