@@ -7,12 +7,14 @@ class HomePage  extends Component {
         <Router>
             <div>
                 <nav>
-                    
+                   <Link to="/home"> Home </Link>
                 </nav>
                 
             </div>
         </Router>
             
-        )
+        );
     }
 }
+
+export default HomePage;
