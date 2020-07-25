@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import logo from '../assets/logo.jpg'
 
 class HomePage  extends Component {
     render() {
@@ -11,7 +12,9 @@ class HomePage  extends Component {
                    <Link to="/user-profile"> User Profile </Link>
                    <Link to="/bookmarks"> Bookmarks </Link>
                 </nav>
-                <h1> Photo App</h1>
+                <h1> React Photo App</h1>
+                <img src= {logo} />
+                
                 
             </div>
         </Router>
