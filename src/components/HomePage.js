@@ -6,6 +6,9 @@ class HomePage  extends Component {
         return (
         <Router>
             <div>
+                <nav>
+                    
+                </nav>
                 
             </div>
         </Router>
