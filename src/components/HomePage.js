@@ -16,7 +16,7 @@ class HomePage  extends Component {
                 </div>
 
                 <h1> React Photo App</h1>
-                <img src= {logo} />
+                <img src= {logo} /><br />
                 <img src= {somethinggreat} />
                 
                 
