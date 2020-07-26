@@ -18,7 +18,7 @@ class HomePage  extends Component {
             renders the first one that matches the current URL. */}
                 <Switch>
                     <Route path="/home">
-                        
+                        <HomePage />
                     </Route>
 
                 </Switch>
