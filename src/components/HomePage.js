@@ -16,8 +16,8 @@ class HomePage  extends Component {
                 </div>
 
                 <h1> React Photo App</h1>
-                <img src= {logo} /><br />
-                <img src= {somethinggreat} />
+                <img src= {logo} className= "img-fluid rounded" alt= "this" /><br />
+                <img src= {somethinggreat} className= "img-fluid" alt= "this" />
                 
                 
             </div>
