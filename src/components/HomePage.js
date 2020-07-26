@@ -14,6 +14,11 @@ class HomePage  extends Component {
                     <Link to="/bookmarks"> Bookmarks </Link>
                     </nav>
                 </div>
+                {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+                <Switch>
+
+                </Switch>
 
                 <h1> React Photo App</h1>
                 <img src= {logo} className= "img-thumbnail" alt= "this" /><br />
