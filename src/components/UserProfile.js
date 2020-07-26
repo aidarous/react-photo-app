@@ -5,7 +5,7 @@ class UserProfile extends Component {
     render() {
         return (
             <div>
-                
+                <img src= {likes} />
             </div>
         )
     }

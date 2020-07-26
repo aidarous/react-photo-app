@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import logo from '../assets/logo.jpg'
 import somethinggreat from '../assets/something-great.jpg'
+import UserProfile from './UserProfile'
 class HomePage  extends Component {
     render() {
         return (
@@ -19,6 +20,9 @@ class HomePage  extends Component {
                 <Switch>
                     <Route path="/home">
                         <HomePage />
+                    </Route>
+                    <Route path="/user-profile">
+                        <UserProfile />
                     </Route>
 
                 </Switch>
