@@ -11,7 +11,7 @@ class UserProfile extends Component {
                 <button className="btn btn-primary"><span className= "fas fa-thumbs-up"></span> Like</button>
                 </div>
                 <div>
-                    <button className=" btn btn-danger"></button>
+                    <button className=" btn btn-danger">Dislike</button>
                 </div>
                 
             </div>
