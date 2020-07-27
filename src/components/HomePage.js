@@ -8,7 +8,7 @@ class HomePage  extends Component {
         return (
         <Router>
             <div>
-                <div>
+                <div >
                     <nav>
                     <Link to="/home"> Home </Link>
                     <Link to="/user-profile"> User Profile </Link>
@@ -17,7 +17,7 @@ class HomePage  extends Component {
                     <form>
                         <input type="text" placeholder="Username" />
                         <input type="password" placeholder="Password" />
-                        <button type="submit">Login</button>
+                        <button type="submit" className="btn btn-default">Login</button>
                     </form>
                 </div>
                 {/* A <Switch> looks through its children <Route>s and
