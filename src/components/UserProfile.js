@@ -10,6 +10,9 @@ class UserProfile extends Component {
                 <div >
                 <button className="btn btn-primary"><span className= "fas fa-thumbs-up"></span> Like</button>
                 </div>
+                <div>
+                    
+                </div>
                 
             </div>
         )
