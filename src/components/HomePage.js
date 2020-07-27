@@ -17,7 +17,7 @@ class HomePage  extends Component {
                     <form>
                         <input type="text" placeholder="Username" />
                         <input type="password" placeholder="Password" />
-                        <button></button>
+                        <button type="submit">Login</button>
                     </form>
                 </div>
                 {/* A <Switch> looks through its children <Route>s and
