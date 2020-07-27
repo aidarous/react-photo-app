@@ -15,7 +15,7 @@ class HomePage  extends Component {
                     <Link to="/bookmarks"> Bookmarks </Link>
                     </nav>
                     <form>
-                        
+                        <input type="text"></input>
                     </form>
                 </div>
                 {/* A <Switch> looks through its children <Route>s and
