@@ -14,7 +14,7 @@ class HomePage  extends Component {
                     <Link to="/user-profile"> User Profile</Link>
                     <Link to="/bookmarks"> Bookmarks</Link>
                     </nav>
-                    <form>
+                    <form className="ml-auto">
                         <input type="text" placeholder="Username" />
                         <input type="password" placeholder="Password" />
                         <button type="submit" className="btn btn-default">Login</button>
