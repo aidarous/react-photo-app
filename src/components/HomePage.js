@@ -9,10 +9,10 @@ class HomePage  extends Component {
         <Router>
             <div>
                 <div className="row">
-                    <nav className="navbar">
+                    <nav className="navbar navbar-expand-md bg-light">
                     <Link to="/home"> Home </Link>
-                    <Link to="/user-profile"> User Profile </Link>
-                    <Link to="/bookmarks"> Bookmarks </Link>
+                    <Link to="/user-profile"> User Profile</Link>
+                    <Link to="/bookmarks"> Bookmarks</Link>
                     </nav>
                     <form>
                         <input type="text" placeholder="Username" />
