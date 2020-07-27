@@ -30,6 +30,7 @@ class HomePage  extends Component {
                 <img src= {somethinggreat} className= "img-thumbnail" alt= "this" />
                 
                 
+                
             </div>
         </Router>
             

@@ -7,7 +7,7 @@ class UserProfile extends Component {
             <div>
                 <h1>Profile</h1>
                 <img src= {likes} className="img-rounded-circle" alt="this"/><br/>
-                <button >like</button>
+                <button className="btn btn-primary">Like</button>
             </div>
         )
     }
