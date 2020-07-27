@@ -14,6 +14,9 @@ class HomePage  extends Component {
                     <Link to="/user-profile"> User Profile </Link>
                     <Link to="/bookmarks"> Bookmarks </Link>
                     </nav>
+                    <form>
+                        
+                    </form>
                 </div>
                 {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
