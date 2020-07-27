@@ -8,7 +8,7 @@ class HomePage  extends Component {
         return (
         <Router>
             <div>
-                <div >
+                <div className="row">
                     <nav>
                     <Link to="/home"> Home </Link>
                     <Link to="/user-profile"> User Profile </Link>
