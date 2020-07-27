@@ -6,7 +6,8 @@ class UserProfile extends Component {
         return (
             <div>
                 <h1>Profile</h1>
-                <img src= {likes} className="img-rounded-circle" alt="this"/>
+                <img src= {likes} className="img-rounded-circle" alt="this"/><br/>
+                <button >like</button>
             </div>
         )
     }
