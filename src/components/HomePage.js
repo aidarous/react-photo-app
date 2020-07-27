@@ -9,7 +9,7 @@ class HomePage  extends Component {
         <Router>
             <div>
                 <div className="row">
-                    <nav>
+                    <nav className="navbar">
                     <Link to="/home"> Home </Link>
                     <Link to="/user-profile"> User Profile </Link>
                     <Link to="/bookmarks"> Bookmarks </Link>
