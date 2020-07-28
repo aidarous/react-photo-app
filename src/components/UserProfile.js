@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import likes from '../assets/likes.jpg'
+import camera from '../assets/camera.jpg'
 
 class UserProfile extends Component {
     render() {
