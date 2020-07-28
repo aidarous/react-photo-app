@@ -12,7 +12,8 @@ class UserProfile extends Component {
                         <button className="btn btn-primary"><span className= "fas fa-thumbs-up"></span> Like</button>
                     </div>
                     <div className="col-xs-4">
-                        <button className=" btn btn-danger">Dislike</button>
+                        <button className=" btn btn-danger">Dislike</button><br />
+                        <input type="text" placeholder="Leave a comment"></input>
                     </div>
                 </div>
             </div>
