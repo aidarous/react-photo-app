@@ -4,7 +4,7 @@ import likes from '../assets/likes.jpg'
 class UserProfile extends Component {
     render() {
         return (
-            <div>
+            <div className="col-md">
                 <h1>Profile</h1>
                 <img src= {likes} className="img-rounded" alt="this"/><br/>
                 <div>
