@@ -30,7 +30,7 @@ class UserProfile extends Component {
                     </div>
                     <img src={thinkoutside} alt="this" />
                     <div className="col-xs-4">
-                    <button ></button>
+                    <button className="btn btn-primary"></button>
                     </div>
                 </div>
             </div>
