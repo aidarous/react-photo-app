@@ -21,6 +21,9 @@ class UserProfile extends Component {
                     <div className="col-xs-4">
                     <button className="btn btn-primary">Like</button>
                     </div>
+                    <div className="col-xs-4">
+                        
+                    </div>
                 </div>
             </div>
         )
