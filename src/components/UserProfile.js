@@ -33,6 +33,8 @@ class UserProfile extends Component {
                     <button className="btn btn-primary">Like</button>
                     <button className=" btn btn-danger">Dislike</button><br />
                     <input type="text" placeholder="leave a comment"></input>
+                    <button></button>
+
                     </div>
                 </div>
             </div>
