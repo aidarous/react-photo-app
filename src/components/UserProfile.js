@@ -22,7 +22,7 @@ class UserProfile extends Component {
                     <button className="btn btn-primary">Like</button>
                     </div>
                     <div className="col-xs-4">
-                        
+                    <button className=" btn btn-danger">Dislike</button><br />
                     </div>
                 </div>
             </div>
