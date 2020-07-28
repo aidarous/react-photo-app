@@ -23,6 +23,7 @@ class UserProfile extends Component {
                     </div>
                     <div className="col-xs-4">
                     <button className=" btn btn-danger">Dislike</button><br />
+                    <input type="text" placeholder="Leave a comment"></input>
                     </div>
                 </div>
             </div>
