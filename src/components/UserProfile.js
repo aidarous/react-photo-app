@@ -32,6 +32,7 @@ class UserProfile extends Component {
                     <div className="col-xs-4">
                     <button className="btn btn-primary">Like</button>
                     <button className=" btn btn-danger">Dislike</button><br />
+                    <input></input>
                     </div>
                 </div>
             </div>
