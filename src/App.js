@@ -15,6 +15,10 @@ function App() {
                     <Link to="/UserProfile"> User Profile</Link>
                     <Link to="/bookmarks"> Bookmarks</Link>
                     </nav>
+                    <form className="ml-auto">
+                        <input type="text" placeholder="Username" />
+                       
+                    </form>
       </div>     
       <Switch>
         <Route path='/HomePage'>
