@@ -17,6 +17,7 @@ class UserProfile extends Component {
                         <input type="text" placeholder="Leave a comment"></input>
                         <button>post</button>
                     </div>
+                    <img src={camera} alt="this" />
                 </div>
             </div>
         )
