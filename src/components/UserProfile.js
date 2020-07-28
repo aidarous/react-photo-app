@@ -29,6 +29,9 @@ class UserProfile extends Component {
                         <button>post</button>
                     </div>
                     <img src={thinkoutside} alt="this" />
+                    <div className="col-xs-4">
+                        
+                    </div>
                 </div>
             </div>
         )
